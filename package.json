@@ -1,0 +1,20 @@
+{
+	"name": "qrtest",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"dev": "node --env-file .env src/app.js"
+	},
+	"type": "module",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2",
+		"image-js": "^0.35.5",
+		"jsqr": "^1.4.0",
+		"mongoose": "^8.4.4",
+		"qrcode": "^1.5.3"
+	}
+}
